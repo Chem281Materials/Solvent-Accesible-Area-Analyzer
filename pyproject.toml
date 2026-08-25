@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sasa_viz"
+version = "0.1.0"
+description = "PDB SASA visualization tool for container lab exercises"
+dependencies = [
+    "biopython",
+    "freesasa",
+    "py3Dmol",
+]
