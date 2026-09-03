@@ -16,8 +16,11 @@
 ## 💻 Setup / Installation
 
 ```bash
-# from the main directory
+# From the main directory
 pip install -e .
+
+# Try
+python3 test_script.py
 ```
 
 ---
@@ -42,9 +45,6 @@ print(f"Total SASA for 1CRN: {total_area:.2f} Å²")
 # 4. Render 3D Surface in Jupyter
 view = sv.render_sasa(analyzed_struct, opacity=0.85)
 view.show()
-
-# 5. Display Colorbar Legend
-sv.plot_sasa_legend(min_sasa=0, max_sasa=30)
 ```
 
 ---
