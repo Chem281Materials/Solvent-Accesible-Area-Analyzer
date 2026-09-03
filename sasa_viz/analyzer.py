@@ -5,7 +5,7 @@ import py3Dmol
 
 def fetch_pdb(pdb_code: str, output_dir: str = ".") -> str:
     """Fetches a PDB file from RCSB and returns the local file path."""
-    pdbl = PDBList()
+    pdbl = PDBList(QUIET=True)
     filepath = pdbl.retrieve_pdb_file(pdb_code.upper(), pdir=output_dir, file_format="pdb")
     return filepath
 
