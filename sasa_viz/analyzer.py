@@ -32,6 +32,7 @@ def analyze_sasa(structure, filepath: str):
     bio_atoms = [atom for atom in structure.get_atoms()]
 
     # 4. Map SASA to B-factors safely using zip or bound-checked loop
+    # B-factors are usually the second last column in a PDB file
     for i in range(min(n_atoms, len(bio_atoms))):
         try:
             sasa_val = result.atomArea(i)
