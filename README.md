@@ -13,6 +13,15 @@
 
 ---
 
+## 💻 Setup / Installation
+
+```bash
+# from the main directory
+pip install -e .
+```
+
+---
+
 ## 🚀 Usage Examples
 
 ### Example 1: Fetching & Analyzing an Online PDB Structure
