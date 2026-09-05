@@ -1,4 +1,4 @@
-# 📦 `Solvent-Accesible-Area-Analyzer`
+# 📦 `Solvent-Accessible-Area-Analyzer`
 
 `sasa_viz` is a lightweight Python module designed for computational biology and chemistry workflows. It simplifies fetching Protein Data Bank (PDB) files, calculating Solvent Accessible Surface Area (SASA) via `freesasa`, mapping atomic area values onto Biopython structure objects, and rendering interactive 3D visualizations in JupyterLab using `py3Dmol`.
 
